@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  padding: 15px;
+}
+
+.logo {
+  max-height: 100px;
+  display: inline-block;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar{
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+
+.navbar:after{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+span{
+  line-height: 100px;
+  background-color: white;
+}
+
+.dropdown{
+  display: none;
+}
+
+.nav_left, .nav_right {
+  height:100px;
+  width:50%;
+  line-height: 100px
+}
+.nav_left {
+  float: left;
+  text-align: left;
+}
+.nav_right {
+  float: right;
+  text-align: right;
+}
+
+.buttons{
+  display: inline-block;
+}
